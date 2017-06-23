@@ -13,6 +13,7 @@ On the host get the container IP and set it as the rpcconnect along with any use
 
 # Building (Only needed if building custom Blackcoin Lore client)
 copy `blackcoind` into `bin/`
+copy `qemu-aarch64-static` into bin/
 `docker build . -t blackcoin-lore-aarch64-linux-gnu`
 
 # TODO
